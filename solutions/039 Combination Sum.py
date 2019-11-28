@@ -19,6 +19,8 @@ class Solution:
                         result.append(temp)
             elif candidate == target:
                 result.append([candidate])
+            else:
+                break
         return result
 
 
